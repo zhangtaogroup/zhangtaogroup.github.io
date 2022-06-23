@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.top{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+.top_left_up{
+    margin-bottom: -30px;
+    font-size: 21px;
+}
+.top_left_down{
+    font-family: "BankGothic Lt BT";
+    font-size: 22px;
+}
+.top_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_right img{
+    position: relative;
+    left: 40px;
+}
+.top_right p{
+    font-size: 20px;
+    font-family: "Adobe 黑体 Std R";
+    position: relative;
+    left: 60px;
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.nav_go{
+    height: 80px;
+}
+.nav_go a{
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    height: 100%;
+    top:20px;
+    font-size: 1.7em;
+    color: #1e90ff;
+    text-decoration: none;
+    text-align: center;
+}
+.nav_go a:hover{
+    color: #ff4757;
+    transition: 0.3s ease-in-out;
+}
+.introduction{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro_top{
+    font-family: "BankGothic Lt BT";
+    font-size: 2.5em;
+}
+.intro_text{
+    width: 1000px;
+}
+.intro_text p{
+    font-family: "Adobe 黑体 Std R";
+    font-size: 2em;
+}
+
