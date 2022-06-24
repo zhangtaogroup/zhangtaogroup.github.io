@@ -40,3 +40,10 @@ li p{
     position: relative;
     top:-10px;
 }
+.patent{
+    position: relative;
+    left:25px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+}
