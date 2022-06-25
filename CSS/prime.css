@@ -65,24 +65,5 @@ body{
     color: #ff4757;
     transition: 0.3s ease-in-out;
 }
-.introduction{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.intro_top{
-    font-family: "BankGothic Lt BT";
-    font-size: 2.5em;
-}
-.intro_text{
-    width: 1000px;
-}
-.intro_text p{
-    font-family: "Adobe 黑体 Std R";
-    font-size: 2em;
-}
+
 
