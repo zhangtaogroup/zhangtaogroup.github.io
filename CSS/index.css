@@ -1,5 +1,25 @@
 .introduction{
-    height:500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro_top{
+    font-family: "BankGothic Lt BT";
+    font-size: 3em;
+}
+.intro_img img {
+    height: 650px;
+}
+.intro_text{
+    width: 1000px;
+}
+.intro_text p{
+    font-family: "Adobe 黑体 Std R";
+    font-size: 2em;
 }
 .linkzone{
     height: 120px;
